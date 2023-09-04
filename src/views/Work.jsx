@@ -66,26 +66,26 @@ export default function Work() {
   const itemTextVariants = {
     hidden: {
       opacity: 0,
-      y: 100
+      y: 100,
     },
-    visible: custom => ({
+    visible: (custom) => ({
       opacity: 1,
       y: 0,
       transition: {
-        delay : custom * 0.3,
-      }
-    })
-  }
+        delay: custom * 0.3,
+      },
+    }),
+  };
   return (
     <motion.div
       className={` w-full my-auto ${isMobile() && "max-w-[85rem]"}`}
       variants={boxVariant}
+      ref={ref}
       initial="hidden"
       whileInView="visible"
     >
       <motion.div
         className="flex justify-center h-10 mb-20"
-        ref={ref}
         variants={textVariant}
         initial="hidden"
         whileInView="visible"
@@ -132,7 +132,12 @@ export default function Work() {
                     })}
                   </div>
                 </div>
-                <motion.div className="w-full max-w-[35rem] flex-col flex mt-8" variants={itemTextVariants} initial="hidden" whileInView="visible">
+                <motion.div
+                  className="w-full max-w-[35rem] flex-col flex mt-8"
+                  variants={itemTextVariants}
+                  initial="hidden"
+                  whileInView="visible"
+                >
                   <div className="text-[2.5rem]">{t(item.title)}</div>
                   <div className="text-[#b8b7dc]">{t(item.content)}</div>
                 </motion.div>
