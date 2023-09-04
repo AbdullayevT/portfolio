@@ -20,17 +20,17 @@ export const aboutDetailInfo = [
   {
     title: "planningAndAnalysis",
     content: "planningAndAnalysisDesc",
-    top: "top-0",
+    top: "!top-0",
   },
   {
     title: "development",
     content: "developmentDesc",
-    top: "top-14",
+    top: "!top-0",
   },
   {
     title: "maintenance",
     content: "maintenanceDesc",
-    top: "top-28",
+    top: "!top-0",
   },
 ];
 

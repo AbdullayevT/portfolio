@@ -120,10 +120,10 @@ export default function Work() {
                     {item.workItem.map((detail, element) => {
                       return (
                         <div
-                          className="bg-gray-600 rounded-[3rem] py-1.5 px-1.5 font-mono text-sm"
+                          className="bg-gray-600 rounded-[3rem] py-1.5 px-1.5 font-mono text-sm self-center"
                           key={element}
                         >
-                          <div>
+                          <div className="align-middle flex justify-center items-center gap-2">
                             <FontAwesomeIcon icon={detail.icon} />{" "}
                             {t(detail.title)}
                           </div>

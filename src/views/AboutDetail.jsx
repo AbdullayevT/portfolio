@@ -42,19 +42,19 @@ export default function AboutDetail() {
   };
   return (
     <div
-      className={` w-full my-auto ${isMobile() && "max-w-[85rem]"}`}
+      className={` w-full my-auto ${isMobile() && "max-w-[75rem]"}`}
       ref={ref}
     >
       <motion.div className={`py-[8rem] ${isMobile() && "py-[2rem]"}`}>
         <div
-          className={`gap-x-16 gap-y-16 grid-rows-[auto] grid-cols-[1fr_1fr] auto-cols-[1fr] grid relative rounded-[30px] ${
+          className={`gap-x-16 gap-y-16 grid-rows-[auto] grid-cols-[1fr_1fr] auto-cols-[1fr] grid relative items-start rounded-[30px] ${
             isMobile() && "!grid-cols-[1fr] px-[5%]"
           }`}
         >
           <motion.div
             className={`flex-col items-start flex sticky ${
               isMobile() && "!static"
-            } top-8`}
+            } !top-8`}
             variants={boxVariants}
             whileInView="visible"
             initial="hidden"
@@ -103,7 +103,7 @@ export default function AboutDetail() {
                       {t(item.title)}
                     </div>
                   </div>
-                  <div className="w-full gap-x-0 gap-y-0 justify-start items-start flex pl-[3.25rem] pr-6 py-6">
+                  <div className="w-full gap-x-0 gap-y-0 justify-start items-start flex pl-[3.25rem] p-6 ">
                     <div className="text-[#b8b7dc]">{t(item.content)}</div>
                   </div>
                 </motion.div>
