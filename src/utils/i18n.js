@@ -103,7 +103,7 @@ i18n.use(initReactI18next).init({
       translation: {
         me: "Tapdıq Abdullayev",
         about: "Haqqımda",
-        work: "İşim haqqda",
+        work: "İşim haqqında",
         portfolio: "Portfolio",
         contact: "Əlaqə",
         name: "Salam mən Tapdıq Abdullayev",

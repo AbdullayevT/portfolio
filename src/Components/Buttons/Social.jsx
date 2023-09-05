@@ -1,5 +1,6 @@
 import {
   faFacebook,
+  faGithub,
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -47,3 +48,16 @@ export const InstagramButton = () => {
     ></Button>
   );
 };
+
+export const GitHubButton = () => {
+  return(
+    <Button
+      className={style}
+      size="large"
+      type="text"
+      target="_blank"
+      href="https://github.com/AbdullayevT"
+      icon={<FontAwesomeIcon icon={faGithub} size="xl" />}
+    ></Button>
+  )
+}

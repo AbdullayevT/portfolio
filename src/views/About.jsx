@@ -1,10 +1,3 @@
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button } from "antd";
 import React, { useEffect, useRef } from "react";
 import ProfilePicture from "@/assets/ProfileImage.jpg";
 import { isMobile } from "../utils/devices";
@@ -12,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setGetAbout } from "../features/general";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { FacebookButton, InstagramButton, LinkedinButton } from "../Components/Buttons/Social";
+import { FacebookButton, GitHubButton, InstagramButton, LinkedinButton } from "../Components/Buttons/Social";
 
 export default function About() {
   const ref = useRef(null);
@@ -23,9 +16,6 @@ export default function About() {
     getAbout && ref.current?.scrollIntoView({ behavior: "smooth" });
     dispatch(setGetAbout(false));
   }, [getAbout]);
-  const style =
-    "text-white border-none hover:!bg-transparent hover:!text-[#8566ff] ";
-
   const boxVariants = {
     hidden: {
       opacity: 0,
@@ -103,6 +93,15 @@ export default function About() {
               viewport={{ once: true }}
             >
               <InstagramButton />
+            </motion.div>
+            <motion.div
+              variants={socialVariants}
+              initial="hidden"
+              animate="visible"
+              custom={4}
+              viewport={{ once: true }}
+            >
+              <GitHubButton />
             </motion.div>
           </div>
         </div>

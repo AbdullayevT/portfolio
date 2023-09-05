@@ -1,15 +1,8 @@
 import React from "react";
 import { isMobile } from "../utils/devices";
 import logo from "@/assets/logo.svg";
-import { Button } from "antd";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
 import { useTranslation } from "react-i18next";
-import { FacebookButton, InstagramButton, LinkedinButton } from "./Buttons/Social";
+import { FacebookButton, GitHubButton, InstagramButton, LinkedinButton } from "./Buttons/Social";
 
 export default function Footer() {
   const style =
@@ -36,6 +29,7 @@ export default function Footer() {
               <LinkedinButton />
               <FacebookButton />
               <InstagramButton />
+              <GitHubButton />
             </div>
           </div>
         </div>
