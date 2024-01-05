@@ -1,5 +1,6 @@
 import CoreDB from "@/assets/work/CoreDB2.png";
 import expense from "@/assets/work/expense.jpg";
+import finx from "@/assets/work/finx.jpg"
 import {
   faCodepen,
   faCss3Alt,
@@ -67,6 +68,30 @@ export const workDetails = [
     workItem: [
       {
         title: "C#",
+        icon: faCode,
+      },
+      {
+        title: "React JS",
+        icon: faReact,
+      },
+      {
+        title: "Ant Design",
+        icon: faCodepen,
+      },
+      {
+        title: "SASS",
+        icon: faSass,
+      },
+    ],
+  },
+  {
+    title: "finxAppTitle",
+    content: "finxAppDesc",
+    image: finx,
+    item: "even",
+    workItem: [
+      {
+        title: "TS",
         icon: faCode,
       },
       {

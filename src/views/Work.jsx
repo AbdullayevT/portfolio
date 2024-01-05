@@ -113,7 +113,7 @@ export default function Work() {
                     <img src={item.image} className="rounded-3xl" />
                   </div>
                   <div
-                    className={`gap-x-4 gap-y-4 flex absolute bottom-4 ${
+                    className={`gap-x-4 gap-y-4 flex absolute left-2 bottom-4 ${
                       item.item === "odd" && "right-5"
                     }`}
                   >

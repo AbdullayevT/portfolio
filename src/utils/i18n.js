@@ -1,6 +1,5 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import { aboutDetailInfo, workDetails } from "./variables";
 
 i18n.use(initReactI18next).init({
   debug: false,
@@ -8,7 +7,6 @@ i18n.use(initReactI18next).init({
   interpolation: {
     escapeValue: false,
   },
-  // language resources
   resources: {
     en: {
       translation: {
@@ -40,6 +38,8 @@ i18n.use(initReactI18next).init({
           "Core data plays an essential role in the decision-making process at different stages of the field development of any oil and gas field. The customer's problem was that the large volume of available core data was stored in an unstructured manner with no conventional naming practices, scattered across the numerous folders of different technical personnel. The lack of an integrated database created additional effort and inefficiency in preconditioning, sorting, and manual transfer of required data between different disciplines, which diminished the potential value that core data could bring in.",
         expenseAppTitle: "Expense App",
         expenseAppDesc: "This project is a web-based platform designed for efficient business travel management. It allows users to request travel permissions, track expenses, schedule and book flights, and monitor the entire travel process. The platform aims to simplify and streamline travel-related tasks, enhancing transparency and cost control for organizations.",
+        finxAppTitle: "FinX",
+        finxAppDesc: "Money is an important topic now. Payment card or cash – how to keep track of your expenses? I decided to solve this problem and created an open-source web service using TypeScript. Now everyone can manage their expenses, divide them into categories and keep track of everyday expenses. For the project we used TypeScript in React, Ant Design components, as well as for styling - Tailwind CSS, SASS query, etc.",
         contactWithMeTitle: "Contact me",
         placeholderEmail: "E-mail",
         placeholderName: "Name",
@@ -85,6 +85,8 @@ i18n.use(initReactI18next).init({
         expenseAppTitle: "Expense App",
         expenseAppDesc:
           "Данный проект представляет собой веб-платформу, предназначенную для эффективного управления деловыми поездками. Она позволяет пользователям запрашивать разрешения на командировки, отслеживать расходы, планировать и бронировать рейсы, а также контролировать весь процесс командировки. Платформа призвана упростить и оптимизировать задачи, связанные с командировками, повысить прозрачность и контроль расходов организаций.",
+        finxAppTitle: "FinX",
+        finxAppDesc: "Деньги - важная тема сейчас. Платежная карта или наличные – как следить за своими затратами? Решил решить эту проблему и создал открытый веб-сервис с использованием TypeScript. Теперь каждый может управлять своими расходами, разделять их по категориям и следить за повседневными затратами. Для проекта использовал TypeScript в React, компоненты Ant Design, а также для стилизации – Tailwind CSS, технологию SASS и прочее.",
         contactWithMeTitle: "Связаться со мной",
         placeholderEmail: "Электронная почта",
         placeholderName: "Имя",
@@ -130,6 +132,8 @@ i18n.use(initReactI18next).init({
         expenseAppTitle: "Expense App",
         expenseAppDesc:
           "Bu layihə biznes səyahətlərinin səmərəli idarə edilməsi üçün nəzərdə tutulmuş veb əsaslı platformadır. O, istifadəçilərə səyahət icazələri tələb etməyə, xərcləri izləməyə, uçuşları planlaşdırmağa, bron etməyə və bütün səyahət prosesinə nəzarət etməyə imkan verir. Platforma təşkilatlar üçün şəffaflığı və xərclərə nəzarəti artırmaqla səyahətlə bağlı vəzifələri sadələşdirmək məqsədi daşıyır.",
+        finxAppTitle: "FinX",
+        finxAppDesc: "Pul indi vacib bir mövzudur. Ödəniş kartı və ya nağd pul – xərclərinizi necə izləmək olar? Mən bu problemi həll etmək qərarına gəldim və TypeScript istifadə edərək açıq veb xidməti yaratdım. İndi hər kəs öz xərclərini idarə edə, onları kateqoriyalara ayıra və gündəlik xərclərin hesabını apara bilər. Layihə üçün React, Ant Design komponentlərində TypeScript-dən istifadə etdik, eləcə də üslub üçün - Tailwind CSS, SASS sorğusu və s.",
         contactWithMeTitle: "Mənimlə əlaqə qur",
         placeholderEmail: "E-poçt",
         placeholderName: "Ad",
