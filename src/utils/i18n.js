@@ -37,9 +37,13 @@ i18n.use(initReactI18next).init({
         coreDbDesc:
           "Core data plays an essential role in the decision-making process at different stages of the field development of any oil and gas field. The customer's problem was that the large volume of available core data was stored in an unstructured manner with no conventional naming practices, scattered across the numerous folders of different technical personnel. The lack of an integrated database created additional effort and inefficiency in preconditioning, sorting, and manual transfer of required data between different disciplines, which diminished the potential value that core data could bring in.",
         expenseAppTitle: "Expense App",
-        expenseAppDesc: "This project is a web-based platform designed for efficient business travel management. It allows users to request travel permissions, track expenses, schedule and book flights, and monitor the entire travel process. The platform aims to simplify and streamline travel-related tasks, enhancing transparency and cost control for organizations.",
+        expenseAppDesc:
+          "This project is a web-based platform designed for efficient business travel management. It allows users to request travel permissions, track expenses, schedule and book flights, and monitor the entire travel process. The platform aims to simplify and streamline travel-related tasks, enhancing transparency and cost control for organizations.",
         finxAppTitle: "FinX",
-        finxAppDesc: "Money is an important topic now. Payment card or cash – how to keep track of your expenses? I decided to solve this problem and created an open-source web service using TypeScript. Now everyone can manage their expenses, divide them into categories and keep track of everyday expenses. For the project we used TypeScript in React, Ant Design components, as well as for styling - Tailwind CSS, SASS query, etc.",
+        finxAppDesc:
+          "Money is an important topic now. Payment card or cash – how to keep track of your expenses? I decided to solve this problem and created an open-source web service using TypeScript. Now everyone can manage their expenses, divide them into categories and keep track of everyday expenses. For the project we used TypeScript in React, Ant Design components, as well as for styling - Tailwind CSS, SASS query, etc.",
+        amtAppTitle: "Inventory Management",
+        amtAppDesc: "The main goal of this project is to create a foundational framework for managing physical devices, providing operators with the ability to efficiently search and filter these devices. The system is designed to validate and refine the core functionality specific to computer assets, creating a strong foundation for future enhancements that will expand the capabilities of the system to include other peripheral devices into it. Integrating your asset management system with Microsoft Intune provides a robust solution for managing physical devices.",
         contactWithMeTitle: "Contact me",
         placeholderEmail: "E-mail",
         placeholderName: "Name",
@@ -51,7 +55,7 @@ i18n.use(initReactI18next).init({
         formValidationEmail: "Please input your E-mail!",
         formTypeValidationEmail: "The input is not valid E-mail!",
         formValidationUserName: "Please input your username!",
-        formValidationMessage: "Please input your message!"
+        formValidationMessage: "Please input your message!",
       },
     },
     ru: {
@@ -86,7 +90,10 @@ i18n.use(initReactI18next).init({
         expenseAppDesc:
           "Данный проект представляет собой веб-платформу, предназначенную для эффективного управления деловыми поездками. Она позволяет пользователям запрашивать разрешения на командировки, отслеживать расходы, планировать и бронировать рейсы, а также контролировать весь процесс командировки. Платформа призвана упростить и оптимизировать задачи, связанные с командировками, повысить прозрачность и контроль расходов организаций.",
         finxAppTitle: "FinX",
-        finxAppDesc: "Деньги - важная тема сейчас. Платежная карта или наличные – как следить за своими затратами? Решил решить эту проблему и создал открытый веб-сервис с использованием TypeScript. Теперь каждый может управлять своими расходами, разделять их по категориям и следить за повседневными затратами. Для проекта использовал TypeScript в React, компоненты Ant Design, а также для стилизации – Tailwind CSS, технологию SASS и прочее.",
+        finxAppDesc:
+          "Деньги - важная тема сейчас. Платежная карта или наличные – как следить за своими затратами? Решил решить эту проблему и создал открытый веб-сервис с использованием TypeScript. Теперь каждый может управлять своими расходами, разделять их по категориям и следить за повседневными затратами. Для проекта использовал TypeScript в React, компоненты Ant Design, а также для стилизации – Tailwind CSS, технологию SASS и прочее.",
+        amtAppTitle: "Inventory Management",
+        amtAppDesc: "Основная цель этого проекта — создать основополагающую структуру для управления физическими устройствами, предоставляя операторам возможность эффективно искать и фильтровать эти устройства.Система предназначена для проверки и уточнения основных функций, характерных для компьютерных активов, создавая прочную основу для будущих усовершенствований, которые расширят возможности системы, включив в нее другие периферийные устройства. Интеграция системы управления ресурсами с Microsoft Intune обеспечит надежное решение для управления физическими устройствами.",
         contactWithMeTitle: "Связаться со мной",
         placeholderEmail: "Электронная почта",
         placeholderName: "Имя",
@@ -94,11 +101,13 @@ i18n.use(initReactI18next).init({
         submitBtn: "Отправить",
         footerMessage: "Создано Тапдыг Абдуллаевым",
         contactSuccessNotification: "Сообщение отправлено",
-        contactErrorNotification: "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
+        contactErrorNotification:
+          "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
         formValidationEmail: "Пожалуйста, введите свой E-mail!",
-        formTypeValidationEmail: "Входные данные не соответствуют действительности E-mail!",
+        formTypeValidationEmail:
+          "Входные данные не соответствуют действительности E-mail!",
         formValidationUserName: "Пожалуйста, введите свое имя",
-        formValidationMessage: "Пожалуйста, введите ваше сообщение!"
+        formValidationMessage: "Пожалуйста, введите ваше сообщение!",
       },
     },
     az: {
@@ -133,7 +142,10 @@ i18n.use(initReactI18next).init({
         expenseAppDesc:
           "Bu layihə biznes səyahətlərinin səmərəli idarə edilməsi üçün nəzərdə tutulmuş veb əsaslı platformadır. O, istifadəçilərə səyahət icazələri tələb etməyə, xərcləri izləməyə, uçuşları planlaşdırmağa, bron etməyə və bütün səyahət prosesinə nəzarət etməyə imkan verir. Platforma təşkilatlar üçün şəffaflığı və xərclərə nəzarəti artırmaqla səyahətlə bağlı vəzifələri sadələşdirmək məqsədi daşıyır.",
         finxAppTitle: "FinX",
-        finxAppDesc: "Pul indi vacib bir mövzudur. Ödəniş kartı və ya nağd pul – xərclərinizi necə izləmək olar? Mən bu problemi həll etmək qərarına gəldim və TypeScript istifadə edərək açıq veb xidməti yaratdım. İndi hər kəs öz xərclərini idarə edə, onları kateqoriyalara ayıra və gündəlik xərclərin hesabını apara bilər. Layihə üçün React, Ant Design komponentlərində TypeScript-dən istifadə etdik, eləcə də üslub üçün - Tailwind CSS, SASS sorğusu və s.",
+        finxAppDesc:
+          "Pul indi vacib bir mövzudur. Ödəniş kartı və ya nağd pul – xərclərinizi necə izləmək olar? Mən bu problemi həll etmək qərarına gəldim və TypeScript istifadə edərək açıq veb xidməti yaratdım. İndi hər kəs öz xərclərini idarə edə, onları kateqoriyalara ayıra və gündəlik xərclərin hesabını apara bilər. Layihə üçün React, Ant Design komponentlərində TypeScript-dən istifadə etdik, eləcə də üslub üçün - Tailwind CSS, SASS sorğusu və s.",
+        amtAppTitle: "Inventory Management",
+        amtAppDesc: "Bu layihənin əsas məqsədi fiziki cihazların idarə edilməsi üçün təməl çərçivə yaratmaq, operatorlara bu cihazları səmərəli şəkildə axtarmaq və filtrləmək imkanı verməkdir və eyni zamanda digər periferik cihazları daxil etmək üçün sistemin imkanlarını genişləndirəcək gələcək təkmilləşdirmələr üçün. Aktivlərin idarə edilməsi sisteminizin Microsoft Intune ilə inteqrasiyası fiziki cihazların idarə edilməsi üçün güclü həll yolu təqdim edir.",
         contactWithMeTitle: "Mənimlə əlaqə qur",
         placeholderEmail: "E-poçt",
         placeholderName: "Ad",
@@ -141,11 +153,12 @@ i18n.use(initReactI18next).init({
         submitBtn: "Göndər",
         footerMessage: "Tapdıq Abdullayev tərəfindən yaradılıb.",
         contactSuccessNotification: "Mesaj göndərildi",
-        contactErrorNotification: "Nəsə xəta baş verdi. Zəhmət olmasa bir daha cəhd edin.",
+        contactErrorNotification:
+          "Nəsə xəta baş verdi. Zəhmət olmasa bir daha cəhd edin.",
         formValidationEmail: "Zəhmət olmasa e-poçtunuzu daxil edin!",
         formTypeValidationEmail: "Daxil edilmiş e-poçt ünvanı səhvdir!",
         formValidationUserName: "Zəhmət olmasa adınızı daxil edin!",
-        formValidationMessage: "Zəhmət olmasa mesajınızı daxil edin!"
+        formValidationMessage: "Zəhmət olmasa mesajınızı daxil edin!",
       },
     },
   },
