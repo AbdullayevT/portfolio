@@ -43,7 +43,12 @@ i18n.use(initReactI18next).init({
         finxAppDesc:
           "Money is an important topic now. Payment card or cash – how to keep track of your expenses? I decided to solve this problem and created an open-source web service using TypeScript. Now everyone can manage their expenses, divide them into categories and keep track of everyday expenses. For the project we used TypeScript in React, Ant Design components, as well as for styling - Tailwind CSS, SASS query, etc.",
         amtAppTitle: "Inventory Management",
-        amtAppDesc: "The main goal of this project is to create a foundational framework for managing physical devices, providing operators with the ability to efficiently search and filter these devices. The system is designed to validate and refine the core functionality specific to computer assets, creating a strong foundation for future enhancements that will expand the capabilities of the system to include other peripheral devices into it. Integrating your asset management system with Microsoft Intune provides a robust solution for managing physical devices.",
+        amtAppDesc:
+          "The main goal of this project is to create a foundational framework for managing physical devices, providing operators with the ability to efficiently search and filter these devices. The system is designed to validate and refine the core functionality specific to computer assets, creating a strong foundation for future enhancements that will expand the capabilities of the system to include other peripheral devices into it. Integrating your asset management system with Microsoft Intune provides a robust solution for managing physical devices.",
+        tradeFinanceTitle: "Trade Finance",
+        tradeFinanceDesc:
+          "Trade Finance is a comprehensive financial platform that allows users to view and analyze trades, integrate with financial services, and offer real-time trade information, transaction history tracking, and advanced analytics to support informed decision making.",
+        gitRepo: "Get the Github repository",
         contactWithMeTitle: "Contact me",
         placeholderEmail: "E-mail",
         placeholderName: "Name",
@@ -93,7 +98,12 @@ i18n.use(initReactI18next).init({
         finxAppDesc:
           "Деньги - важная тема сейчас. Платежная карта или наличные – как следить за своими затратами? Решил решить эту проблему и создал открытый веб-сервис с использованием TypeScript. Теперь каждый может управлять своими расходами, разделять их по категориям и следить за повседневными затратами. Для проекта использовал TypeScript в React, компоненты Ant Design, а также для стилизации – Tailwind CSS, технологию SASS и прочее.",
         amtAppTitle: "Inventory Management",
-        amtAppDesc: "Основная цель этого проекта — создать основополагающую структуру для управления физическими устройствами, предоставляя операторам возможность эффективно искать и фильтровать эти устройства.Система предназначена для проверки и уточнения основных функций, характерных для компьютерных активов, создавая прочную основу для будущих усовершенствований, которые расширят возможности системы, включив в нее другие периферийные устройства. Интеграция системы управления ресурсами с Microsoft Intune обеспечит надежное решение для управления физическими устройствами.",
+        amtAppDesc:
+          "Основная цель этого проекта — создать основополагающую структуру для управления физическими устройствами, предоставляя операторам возможность эффективно искать и фильтровать эти устройства.Система предназначена для проверки и уточнения основных функций, характерных для компьютерных активов, создавая прочную основу для будущих усовершенствований, которые расширят возможности системы, включив в нее другие периферийные устройства. Интеграция системы управления ресурсами с Microsoft Intune обеспечит надежное решение для управления физическими устройствами.",
+        tradeFinanceTitle: "Trade Finance",
+        tradeFinanceDesc:
+          "Trade Finance представляет собой комплексную финансовую платформу, которая позволяет пользователям просматривать и анализировать сделки, интегрироваться с финансовыми услугами. Она предлагает информацию о сделках в реальном времени, отслеживание истории транзакций и расширенную аналитику для поддержки принятия обоснованных решений.",
+        gitRepo: "Перейти в репозиторий github",
         contactWithMeTitle: "Связаться со мной",
         placeholderEmail: "Электронная почта",
         placeholderName: "Имя",
@@ -145,7 +155,12 @@ i18n.use(initReactI18next).init({
         finxAppDesc:
           "Pul indi vacib bir mövzudur. Ödəniş kartı və ya nağd pul – xərclərinizi necə izləmək olar? Mən bu problemi həll etmək qərarına gəldim və TypeScript istifadə edərək açıq veb xidməti yaratdım. İndi hər kəs öz xərclərini idarə edə, onları kateqoriyalara ayıra və gündəlik xərclərin hesabını apara bilər. Layihə üçün React, Ant Design komponentlərində TypeScript-dən istifadə etdik, eləcə də üslub üçün - Tailwind CSS, SASS sorğusu və s.",
         amtAppTitle: "Inventory Management",
-        amtAppDesc: "Bu layihənin əsas məqsədi fiziki cihazların idarə edilməsi üçün təməl çərçivə yaratmaq, operatorlara bu cihazları səmərəli şəkildə axtarmaq və filtrləmək imkanı verməkdir və eyni zamanda digər periferik cihazları daxil etmək üçün sistemin imkanlarını genişləndirəcək gələcək təkmilləşdirmələr üçün. Aktivlərin idarə edilməsi sisteminizin Microsoft Intune ilə inteqrasiyası fiziki cihazların idarə edilməsi üçün güclü həll yolu təqdim edir.",
+        amtAppDesc:
+          "Bu layihənin əsas məqsədi fiziki cihazların idarə edilməsi üçün təməl çərçivə yaratmaq, operatorlara bu cihazları səmərəli şəkildə axtarmaq və filtrləmək imkanı verməkdir və eyni zamanda digər periferik cihazları daxil etmək üçün sistemin imkanlarını genişləndirəcək gələcək təkmilləşdirmələr üçün. Aktivlərin idarə edilməsi sisteminizin Microsoft Intune ilə inteqrasiyası fiziki cihazların idarə edilməsi üçün güclü həll yolu təqdim edir.",
+        tradeFinanceTitle: "Trade Finance",
+        tradeFinanceDesc:
+          "Trade Finance istifadəçilərə hərraclara baxmaq və təhlil etmək, maliyyə xidmətləri ilə inteqrasiya etmək imkanı verən hərtərəfli maliyyə platformasıdır. O, məlumatlı qərar qəbulunu dəstəkləmək üçün real vaxt rejimində əməliyyat məlumatı, əməliyyat tarixinin izlənməsi və qabaqcıl analitika təklif edir.",
+        gitRepo: "Github reposuna keçid edin",
         contactWithMeTitle: "Mənimlə əlaqə qur",
         placeholderEmail: "E-poçt",
         placeholderName: "Ad",

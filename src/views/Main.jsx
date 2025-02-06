@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import About from "./About";
 import AboutDetail from "./AboutDetail";
 import Work from "./Work";

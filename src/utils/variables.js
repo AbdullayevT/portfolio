@@ -1,7 +1,8 @@
 import CoreDB from "@/assets/work/CoreDB2.png";
 import expense from "@/assets/work/expense.jpg";
 import inventory from "@/assets/work/inventory.png";
-import finx from "@/assets/work/finx.jpg"
+import finx from "@/assets/work/finx.jpg";
+import tradeFinance from "@/assets/work/tradefinance.jpg";
 import {
   faCodepen,
   faCss3Alt,
@@ -90,6 +91,7 @@ export const workDetails = [
     content: "finxAppDesc",
     image: finx,
     item: "even",
+    isHasGitRepo: true,
     workItem: [
       {
         title: "TS",
@@ -117,6 +119,35 @@ export const workDetails = [
     workItem: [
       {
         title: "C#",
+        icon: faCode,
+      },
+      {
+        title: "React JS",
+        icon: faReact,
+      },
+      {
+        title: "Ant Design",
+        icon: faCodepen,
+      },
+      {
+        title: "SASS",
+        icon: faSass,
+      },
+    ],
+  },
+  {
+    title: "tradeFinanceTitle",
+    content: "tradeFinanceDesc",
+    image: tradeFinance,
+    item: "even",
+    isNeedToIncreaseSize: true,
+    workItem: [
+      {
+        title: "C#",
+        icon: faCode,
+      },
+      {
+        title: "TS",
         icon: faCode,
       },
       {

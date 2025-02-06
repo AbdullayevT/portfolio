@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import ProfilePicture from "@/assets/ProfileImage.jpg";
 import { isMobile } from "../utils/devices";
 import { useDispatch, useSelector } from "react-redux";

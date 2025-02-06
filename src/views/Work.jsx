@@ -1,12 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { isMobile } from "../utils/devices";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { workDetails } from "../utils/variables";
 import { useDispatch, useSelector } from "react-redux";
 import { setGetPortfolio } from "../features/general";
-import { Typography } from "antd";
+import { Button, Tooltip, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 
 const { Title } = Typography;
 export default function Work() {
@@ -110,7 +111,15 @@ export default function Work() {
               <div className="w-full max-w-[42rem] flex flex-col">
                 <div className="w-full rounded-3xl relative ">
                   <div>
-                    <img src={item.image} className="rounded-3xl" />
+                    <img
+                      src={item.image}
+                      className="rounded-3xl"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
                   </div>
                   <div
                     className={`gap-x-4 gap-y-4 flex absolute left-2 bottom-4 ${
@@ -138,7 +147,26 @@ export default function Work() {
                   initial="hidden"
                   whileInView="visible"
                 >
-                  <div className="text-[2.5rem]">{t(item.title)}</div>
+                  <div className="text-[2.5rem] flex gap-4 items-center">
+                    <span>{t(item.title)}</span>
+                    {item?.isHasGitRepo && (
+                      <Tooltip title={t("gitRepo")} placement="right">
+                        <Button
+                          size="large"
+                          type="text"
+                          target="_blank"
+                          href="https://github.com/AbdullayevT/digitalBanking/tree/master"
+                          icon={
+                            <FontAwesomeIcon
+                              icon={faGithub}
+                              color="white"
+                              size="xl"
+                            />
+                          }
+                        />
+                      </Tooltip>
+                    )}
+                  </div>
                   <div className="text-[#b8b7dc]">{t(item.content)}</div>
                 </motion.div>
               </div>
