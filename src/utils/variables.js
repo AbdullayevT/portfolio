@@ -3,6 +3,7 @@ import expense from "@/assets/work/expense.jpg";
 import inventory from "@/assets/work/inventory.png";
 import finx from "@/assets/work/finx.jpg";
 import tradeFinance from "@/assets/work/tradefinance.jpg";
+import azepadel from "@/assets/work/azepadel.jpg";
 import {
   faCodepen,
   faCss3Alt,
@@ -11,6 +12,7 @@ import {
   faPython,
   faReact,
   faSass,
+  faTailwindCss,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faCode,
@@ -39,10 +41,36 @@ export const aboutDetailInfo = [
 
 export const workDetails = [
   {
+    title: "azepadelTitle",
+    content: "azepadelDesc",
+    image: azepadel,
+    item: "even",
+    isHasLiveUrl: true,
+    liveUrl: "https://www.azepadel.az",
+    workItem: [
+      {
+        title: "C#",
+        icon: faCode,
+      },
+      {
+        title: "Next JS",
+        icon: faCode,
+      },
+      {
+        title: "Shadcn UI",
+        icon: faCodepen,
+      },
+      {
+        title: "Tailwind CSS",
+        icon: faTailwindCss,
+      },
+    ],
+  },
+  {
     title: "coreDbTitle",
     content: "coreDbDesc",
     image: CoreDB,
-    item: "even",
+    item: "odd",
     workItem: [
       {
         title: "Python",
@@ -66,7 +94,7 @@ export const workDetails = [
     title: "expenseAppTitle",
     content: "expenseAppDesc",
     image: expense,
-    item: "odd",
+    item: "even",
     workItem: [
       {
         title: "C#",
@@ -90,8 +118,9 @@ export const workDetails = [
     title: "finxAppTitle",
     content: "finxAppDesc",
     image: finx,
-    item: "even",
+    item: "odd",
     isHasGitRepo: true,
+    gitUrl: "https://github.com/AbdullayevT/digitalBanking/tree/master",
     workItem: [
       {
         title: "TS",
@@ -115,7 +144,7 @@ export const workDetails = [
     title: "amtAppTitle",
     content: "amtAppDesc",
     image: inventory,
-    item: "odd",
+    item: "even",
     workItem: [
       {
         title: "C#",
@@ -139,7 +168,7 @@ export const workDetails = [
     title: "tradeFinanceTitle",
     content: "tradeFinanceDesc",
     image: tradeFinance,
-    item: "even",
+    item: "odd",
     isNeedToIncreaseSize: true,
     workItem: [
       {

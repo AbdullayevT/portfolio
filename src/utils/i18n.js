@@ -33,6 +33,9 @@ i18n.use(initReactI18next).init({
         maintenanceDesc:
           "I'm skilled in providing continuing assistance, addressing bugs, and improving web projects. I guarantee the project's long-term success by putting a strong emphasis on security and excellent client communication.",
         projectTitle: "Projects",
+        azepadelTitle: "Azepadel",
+        azepadelDesc:
+          "Padel Azerbaijan manages the national competition calendar, player rankings, coaching certification, and venue standards throughout the country.",
         coreDbTitle: "CoreDB",
         coreDbDesc:
           "Core data plays an essential role in the decision-making process at different stages of the field development of any oil and gas field. The customer's problem was that the large volume of available core data was stored in an unstructured manner with no conventional naming practices, scattered across the numerous folders of different technical personnel. The lack of an integrated database created additional effort and inefficiency in preconditioning, sorting, and manual transfer of required data between different disciplines, which diminished the potential value that core data could bring in.",
@@ -49,6 +52,7 @@ i18n.use(initReactI18next).init({
         tradeFinanceDesc:
           "Trade Finance is a comprehensive financial platform that allows users to view and analyze trades, integrate with financial services, and offer real-time trade information, transaction history tracking, and advanced analytics to support informed decision making.",
         gitRepo: "Get the Github repository",
+        liveRepo: "Visit the live website",
         contactWithMeTitle: "Contact me",
         placeholderEmail: "E-mail",
         placeholderName: "Name",
@@ -89,6 +93,9 @@ i18n.use(initReactI18next).init({
           "Я умею оказывать постоянную помощь, устранять ошибки и улучшать веб-проекты. Я гарантирую долгосрочный успех проекта, уделяя особое внимание безопасности и отличной коммуникации с клиентом.",
         projectTitle: "Проекты",
         coreDbTitle: "CoreDB",
+        azepadelTitle: "Azepadel",
+        azepadelDesc:
+          "Padel Azerbaijan управляет национальным календарём соревнований, рейтингами игроков, сертификацией тренеров и стандартами площадок по всей стране.",
         coreDbDesc:
           "Данные о керне играют важную роль в процессе принятия решений на различных этапах разработки любого нефтегазового месторождения. Проблема заказчика заключалась в том, что большой объем имеющихся керновых данных хранился в неструктурированном виде, без общепринятой практики именования, разбросанным по многочисленным папкам различных технических специалистов. Отсутствие интегрированной базы данных приводило к дополнительным затратам и неэффективности, связанным с предварительной подготовкой, сортировкой и ручной передачей необходимых данных между различными подразделениями, что снижало потенциальную ценность керновых данных.",
         expenseAppTitle: "Expense App",
@@ -104,6 +111,7 @@ i18n.use(initReactI18next).init({
         tradeFinanceDesc:
           "Trade Finance представляет собой комплексную финансовую платформу, которая позволяет пользователям просматривать и анализировать сделки, интегрироваться с финансовыми услугами. Она предлагает информацию о сделках в реальном времени, отслеживание истории транзакций и расширенную аналитику для поддержки принятия обоснованных решений.",
         gitRepo: "Перейти в репозиторий github",
+        liveRepo: "Посетить сайт",
         contactWithMeTitle: "Связаться со мной",
         placeholderEmail: "Электронная почта",
         placeholderName: "Имя",
@@ -145,6 +153,9 @@ i18n.use(initReactI18next).init({
         maintenanceDesc:
           "Mən davamlı yardım göstərmək, səhvləri həll etmək və veb layihələri təkmilləşdirməkdə bacarıqlıyam. Təhlükəsizliyə və mükəmməl müştəri ünsiyyətinə böyük diqqət yetirməklə layihənin uzunmüddətli uğuruna zəmanət verirəm.",
         projectTitle: "Layihələr",
+        azepadelTitle: "Azepadel",
+        azepadelDesc:
+          "Padel Azərbaycan ölkə üzrə milli yarış təqvimini, oyunçu reytinqlərini, məşqçilərin sertifikatlaşdırılmasını və meydança standartlarını idarə edir.",
         coreDbTitle: "CoreDB",
         coreDbDesc:
           "Kern məlumatlar istənilən neft və qaz yatağının işlənməsinin müxtəlif mərhələlərində qərarların qəbulu prosesində mühüm rol oynayır. Müştərinin problemi ondan ibarət idi ki, mövcud kern məlumatların böyük həcmi müxtəlif texniki personalın çoxsaylı qovluqlarına səpələnmiş, heç bir şərti adlandırma təcrübəsi olmadan strukturlaşdırılmamış şəkildə saxlanılırdı. İnteqrasiya edilmiş məlumat bazasının olmaması lazımi məlumatların müxtəlif şöbələr arasında əvvəlcədən hazırlanması, çeşidlənməsi və əl ilə ötürülməsi ilə bağlı əlavə xərclərə və səmərəsizliyə gətirib çıxardı ki, bu da kern məlumatların potensial dəyərini azaltdı.",
@@ -161,6 +172,7 @@ i18n.use(initReactI18next).init({
         tradeFinanceDesc:
           "Trade Finance istifadəçilərə hərraclara baxmaq və təhlil etmək, maliyyə xidmətləri ilə inteqrasiya etmək imkanı verən hərtərəfli maliyyə platformasıdır. O, məlumatlı qərar qəbulunu dəstəkləmək üçün real vaxt rejimində əməliyyat məlumatı, əməliyyat tarixinin izlənməsi və qabaqcıl analitika təklif edir.",
         gitRepo: "Github reposuna keçid edin",
+        liveRepo: "Web saytı ziyarət edin",
         contactWithMeTitle: "Mənimlə əlaqə qur",
         placeholderEmail: "E-poçt",
         placeholderName: "Ad",

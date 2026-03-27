@@ -8,6 +8,7 @@ import { Button, Tooltip, Typography } from "antd";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const { Title } = Typography;
 export default function Work() {
@@ -19,6 +20,7 @@ export default function Work() {
     getPortfolio && ref.current?.scrollIntoView({ behavior: "smooth" });
     dispatch(setGetPortfolio(false));
   }, [getPortfolio]);
+
   const boxVariant = {
     hidden: {
       opacity: 0,
@@ -84,12 +86,14 @@ export default function Work() {
       ref={ref}
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true }}
     >
       <motion.div
         className="flex justify-center h-10 mb-20"
         variants={textVariant}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true }}
       >
         <Title className="!text-white">{t("projectTitle")}</Title>
       </motion.div>
@@ -106,6 +110,7 @@ export default function Work() {
               variants={item.item === "odd" ? oddVariants : evenVariants}
               initial="hidden"
               whileInView="visible"
+              viewport={{ once: true }}
               custom={index + 1}
             >
               <div className="w-full max-w-[42rem] flex flex-col">
@@ -146,6 +151,7 @@ export default function Work() {
                   variants={itemTextVariants}
                   initial="hidden"
                   whileInView="visible"
+                  viewport={{ once: true }}
                 >
                   <div className="text-[2.5rem] flex gap-4 items-center">
                     <span>{t(item.title)}</span>
@@ -155,10 +161,27 @@ export default function Work() {
                           size="large"
                           type="text"
                           target="_blank"
-                          href="https://github.com/AbdullayevT/digitalBanking/tree/master"
+                          href={item.gitUrl}
                           icon={
                             <FontAwesomeIcon
                               icon={faGithub}
+                              color="white"
+                              size="xl"
+                            />
+                          }
+                        />
+                      </Tooltip>
+                    )}
+                    {item?.isHasLiveUrl && (
+                      <Tooltip title={t("liveRepo")} placement="right">
+                        <Button
+                          size="large"
+                          type="text"
+                          target="_blank"
+                          href={item.liveUrl}
+                          icon={
+                            <FontAwesomeIcon
+                              icon={faArrowUpRightFromSquare}
                               color="white"
                               size="xl"
                             />
